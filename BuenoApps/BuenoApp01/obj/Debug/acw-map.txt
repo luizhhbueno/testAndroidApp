@@ -1,0 +1,4 @@
+BuenoApp01.MainActivity, BuenoApp01;md58bf9bdaa0cb43037af1ad2722c003f93.MainActivity
+BuenoApp01.MainActivity, BuenoApp01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58bf9bdaa0cb43037af1ad2722c003f93.MainActivity
+BuenoApp01.MainActivity;md58bf9bdaa0cb43037af1ad2722c003f93.MainActivity
+buenoapp01.MainActivity;md58bf9bdaa0cb43037af1ad2722c003f93.MainActivity
