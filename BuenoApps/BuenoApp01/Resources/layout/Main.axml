@@ -15,7 +15,7 @@
         android:layout_marginRight="0.0dp"
         android:text="Text On/Off" />
     <TextView
-        android:text="HI TEXT"
+        android:text="VISIBLE"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

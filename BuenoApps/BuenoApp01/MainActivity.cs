@@ -8,7 +8,9 @@ namespace BuenoApp01
 	public class MainActivity : Activity
 	{
 		int count = 1;
+		TextView text1;
 		Switch switch1;
+
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
@@ -24,13 +26,12 @@ namespace BuenoApp01
 
 			switch1 = FindViewById<Switch>(Resource.Id.switch1);
 			switch1.CheckedChange += Switch1_CheckedChange;
-			var text1 = FindViewById<TextView>(Resource.Id.textView1);
+			text1 = FindViewById<TextView>(Resource.Id.textView1);
 			text1.Visibility = Android.Views.ViewStates.Invisible;
 		}
 
 		void Switch1_CheckedChange(object sender, CompoundButton.CheckedChangeEventArgs e)
 		{
-			var text1 = FindViewById<TextView>(Resource.Id.textView1);
 			if (switch1.Checked)
 			{
 				text1.Visibility = Android.Views.ViewStates.Visible;
